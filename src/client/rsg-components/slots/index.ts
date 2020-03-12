@@ -1,4 +1,3 @@
-import Editor from "rsg-components/Editor";
 import Usage from "rsg-components/Usage";
 import IsolateButton from "rsg-components/slots/IsolateButton";
 import CodeTabButton from "rsg-components/slots/CodeTabButton";
@@ -19,12 +18,6 @@ export default (config?: any) => {
       {
         id: EXAMPLE_TAB_CODE_EDITOR,
         render: CodeTabButton
-      }
-    ],
-    exampleTabs: [
-      {
-        id: EXAMPLE_TAB_CODE_EDITOR,
-        render: Editor
       }
     ],
     docsTabButtons: [
